@@ -394,7 +394,7 @@ nav.active{
     transform: translateY(-10px);
 }
 /*responsiveness*/
-@media(max-width:500px){
+@media (max-width:500px){
 .container1{
     margin:0;
     padding:0;
@@ -450,7 +450,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 330%;
+    height: 350%;
     margin: 0;
     padding:0;
 }
@@ -597,7 +597,6 @@ nav.active{
     display:flex;
     align-items: center;
     }
-
 .footer .header4{
     position:absolute;
     left:27%;
