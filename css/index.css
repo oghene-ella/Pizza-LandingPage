@@ -417,6 +417,9 @@ nav.active{
     left:16.2%;
     z-index:10;
 }
+.menu .closeMenu{
+    margin-left: 15px;
+}
 .menuList{
     position: absolute;
     right:27%;
@@ -450,7 +453,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 350%;
+    height: 330%;
     margin: 0;
     padding:0;
 }
@@ -617,4 +620,51 @@ nav.active{
     top:30%;
     text-align: center;  
 }
+}
+
+@media (max-width:411px){
+    .container1{
+        margin:0;
+        padding:0;
+        width:100%;
+        position:relative;  
+    }
+    .header1{
+        position: relative;
+        font-size:24px;
+        right:18%;
+    }
+    .text{
+        font-size:22px;
+}
+.header .menu{
+    position: fixed;
+    float:left;
+    width:85%;
+    height:100%;
+    left:16.2%;
+    z-index:10;
+}
+.menuList{
+    position: absolute;
+    right:20%;
+}
+.closeMenu{
+    left:95px;
+} 
+.p1{
+    position: absolute;
+    font-size:25px;
+    top:55%;
+}
+.container2{
+    width: 100%;
+    height: 370%;
+}
+
+.container4{
+    width: 100%;
+    height: 370%;
+
+}  
 }
