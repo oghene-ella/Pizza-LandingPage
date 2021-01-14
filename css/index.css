@@ -10,6 +10,7 @@ body::-webkit-scrollbar {
   display:none;
   scrollbar-width: none; 
 }
+/*container 1*/
 .container1{
     position: relative;
     padding:0;
@@ -26,7 +27,7 @@ body::-webkit-scrollbar {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+/*header1*/
 .header1{
     font-size:30px;
     color:white;
@@ -72,6 +73,7 @@ nav.active{
     align-items: center;
     flex-direction: column;
 }
+/*sidebar*/
 .menuList{
     right:6.5%;
     position: fixed;
@@ -109,6 +111,7 @@ nav.active{
     background-color:white;
     transform: translateY(-10px); 
 }
+/*writeup1*/
 .writeup1{
     width:65%;
     height:70%;
@@ -147,15 +150,14 @@ nav.active{
     width:14em;
     background-color:rgb(241, 34, 69);
     transition:0.3s ease-in-out;
- 
 }
-
 .btn1:hover{
     background-color:#ffc500;
     color:black;
     cursor: pointer;
     transform: translateY(-10px); 
 }
+/*container 2*/
 .container2{
      background-color: #0f0400;
      width: 100%;
@@ -221,6 +223,7 @@ nav.active{
     height:95%;
     text-align: center;
 }
+/*container 3*/
 .container3{
     background-image:url('../images/featured3.jpg');
     width: 100%;
@@ -277,6 +280,7 @@ nav.active{
     padding:14px 40px; 
     transform: translateY(-10px);  
 }
+/*container 4*/
 .container4{
     background-color:  #0f0400;
     width: 100%;
@@ -303,7 +307,6 @@ nav.active{
     border-width: 0px 8px 8px 0px;
     border-color:#f4f804;
 }
-
 .products2 h3{
     font-size:25px;
 }
@@ -341,6 +344,7 @@ nav.active{
     height:95%;
     text-align: center;
 }
+/*footer*/
 .footer{
     position:relative;
     background-color: #050505;
@@ -393,8 +397,75 @@ nav.active{
     background-color:  #ffc500;;
     transform: translateY(-10px);
 }
-/*responsiveness*/
-@media (max-width:500px){
+/* responsiveness for 365px*/
+@media (max-width:365px){
+/*header1*/
+.header .header1{
+    font-size:20px;
+}
+.header .text{
+    font-size:20px;
+}
+/*sidebar*/
+.header .menu .menuList{
+    position: absolute;
+    right:13%;
+}
+/*writeup1*/
+.writeup1 .title1{
+    width:100%;
+}
+.writeup1 .p1{
+    position: absolute;
+    top:65%;
+    font-style: "Montserrat";
+    font-size:18px;
+}
+.writeup1 .btn1{
+    position:absolute;
+    margin-top:65px;
+}
+/*container 2*/
+#container2{
+    width:100%;
+    height:340%;
+}
+/*container 3*/
+.container3 .btn2 {
+   position: absolute;
+   left:35px;
+}
+/*container 4*/
+#container4{
+    width:100%;
+    height:340%;
+}
+/*footer*/
+.footer{
+    position: relative;
+    height:25%;
+}
+.footer .header4 a{
+    position: relative;
+    font-size:20px;
+    font-style: "Montserrat";
+    right:10%;
+}
+.footer .elly a{
+    position: absolute;
+    left:-10px;
+    top:-10px;
+}
+.footer .mediaLogo a{
+    position: relative;
+     top:7.5px;
+     margin:0;
+     padding:0;
+}
+}
+/* responsiveness for 411px*/
+@media (max-width:411px){
+/*container 1*/
 .container1{
     margin:0;
     padding:0;
@@ -417,6 +488,57 @@ nav.active{
     left:16.2%;
     z-index:10;
 }
+/*sidebar*/
+.menuList{
+    position: absolute;
+    right:20%;
+}
+.closeMenu{
+    left:95px;
+} 
+/*writeup1*/
+.p1{
+    position: absolute;
+    font-size:25px;
+    top:55%;
+}
+/*container 2*/
+.container2{
+    width: 100%;
+    height: 370%;
+}
+/*container 4*/
+.container4{
+    width: 100%;
+    height: 370%;
+}  
+}
+/*responsiveness for 500px*/
+@media (max-width:500px){
+/*container 1*/
+.container1{
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;  
+}
+.header1{
+    position: relative;
+    font-size:24px;
+    right:18%;
+}
+.text{
+    font-size:22px;
+}
+.header .menu{
+    position: fixed;
+    float:left;
+    width:85%;
+    height:100%;
+    left:16.2%;
+    z-index:10;
+}
+/*sidebar*/
 .menu .closeMenu{
     margin-left: 15px;
 }
@@ -424,6 +546,7 @@ nav.active{
     position: absolute;
     right:27%;
 }
+/*writeup1*/
 .writeup1{
     flex-direction: column;
     display:flex;
@@ -450,6 +573,7 @@ nav.active{
     width:65%;
 
 }
+/*container 2*/
 .container2{
     position:relative;
     width: 100%;
@@ -505,6 +629,7 @@ nav.active{
      text-align: center;
      padding-top:70px;
 }
+/*container 3*/
 .container3{
     margin:0;
     padding:0;
@@ -537,6 +662,7 @@ nav.active{
     font-size: 20px;
     padding:12px 30px;   
 }
+/*container 4*/
 .container4{
     position:relative;
     width: 100%;
@@ -591,6 +717,7 @@ nav.active{
     text-align: center;
     padding-top:70px;
 }
+/*footer*/
 .footer{
     width: 100%;
     margin:0;
@@ -602,14 +729,14 @@ nav.active{
     }
 .footer .header4{
     position:absolute;
-    left:27%;
+    left:32%;
     top:10%;
     font-size:20px;
     text-align: center;
 }
 .footer .elly{
     position:absolute;
-    left:30%;
+    left:35%;
     bottom:47%;
     text-align: center;
 }
@@ -622,48 +749,3 @@ nav.active{
 }
 }
 
-@media (max-width:411px){
-    .container1{
-        margin:0;
-        padding:0;
-        width:100%;
-        position:relative;  
-    }
-    .header1{
-        position: relative;
-        font-size:24px;
-        right:18%;
-    }
-    .text{
-        font-size:22px;
-}
-.header .menu{
-    position: fixed;
-    float:left;
-    width:85%;
-    height:100%;
-    left:16.2%;
-    z-index:10;
-}
-.menuList{
-    position: absolute;
-    right:20%;
-}
-.closeMenu{
-    left:95px;
-} 
-.p1{
-    position: absolute;
-    font-size:25px;
-    top:55%;
-}
-.container2{
-    width: 100%;
-    height: 370%;
-}
-
-.container4{
-    width: 100%;
-    height: 370%;
-}  
-}
