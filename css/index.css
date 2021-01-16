@@ -443,7 +443,7 @@ nav.active{
 /*footer*/
 .footer{
     position: relative;
-    height:25%;
+    height:27.5%;
 }
 .footer .header4 a{
     position: relative;
@@ -744,8 +744,9 @@ nav.active{
     display:flex;
     position: relative;
     left:-1px;
-    top:29%;
+    top:30%;
     text-align: center;  
 }
 }
+
 
