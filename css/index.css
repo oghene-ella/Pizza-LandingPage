@@ -697,8 +697,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    min-height: 290%;
-    max-height:360%;
+    height:360%;
     margin: 0;
     padding:0;
 }
@@ -787,8 +786,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    min-height: 290%;
-    max-height:360%;
+    height:360%;
     margin:0;
     padding:0;
 }  
@@ -875,6 +873,24 @@ nav.active{
     height:45px;   
     border-radius: 45%;
 }
+}
+@media (min-width:371px) and (max-width:385px){
+/*container 2*/
+.container2{
+    position:relative;
+    width: 100%;
+    height:328%;
+    margin: 0;
+    padding:0;
+}
+/*container 4*/
+.container4{
+    position:relative;
+    width: 100%;
+    height:328%;
+    margin:0;
+    padding:0;
+}  
 }
 @media (min-width:411px) and (max-width:500px){
 /*container 1*/
@@ -1640,7 +1656,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 165%;
+    height: 250%;
     margin: 0;
     padding:0;
 }
@@ -1699,7 +1715,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
-    height:50%;
+    height:80%;
 }
 .writeup2{
     margin:0;
@@ -1731,7 +1747,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 168%;
+    height: 250%;
     margin:0;
     padding:0;
 }  
@@ -1787,7 +1803,7 @@ nav.active{
 /*footer*/
 .footer{
     width: 100%;
-    height:18%;
+    height:19%;
     margin:0;
     padding:0;
     position: relative;
@@ -1815,4 +1831,469 @@ nav.active{
     top:30%;
     text-align: center;  
 }
+}
+@media (min-width:951px) and (max-width:1050px) {
+.container1{
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;  
+}
+.text{
+    font-size:30px;
+}
+.header .menu{
+    position: fixed;
+    float:left;
+    width:70%;
+    height:100%;
+    left:31.2%;
+    z-index:10;
+}
+/*sidebar*/
+.menu .closeMenu{
+    margin-left: 30%;
+}
+.menuList{
+    position: absolute;
+    right:36%;
+    top:12%;
+}
+/*writeup1*/
+.writeup1{
+    flex-direction: column;
+    display:flex;
+    position: relative;
+    width:67%;
+    right:50px;
+    top:5%;
+    height:60%;
+}
+.title1{
+    top:12%;
+    position: absolute;
+    width:90%;
+    font-size:79px;
+    line-height:64px;
+}
+.p1{
+    position: absolute;
+    font-size:36px;
+    top:61%;
+}
+.btn1{
+    top:79%;
+    width:45%;
+}
+/*container 2*/
+.container2{
+    position:relative;
+    width: 100%;
+    height: 250%;
+    margin: 0;
+    padding:0;
+}
+.header2{
+    margin:0;
+    padding:45px;
+    font-size:35px;
+ }  
+.products1{
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:45px;
+    justify-content: center;
+    align-items: center;
+}
+.products1 img{
+    width:17em;
+    height:19em;
+}
+.products1 h3{
+     font-size:25px;
+  }
+.products1 h4{
+     font-size:30px;
+  }
+.products1 btn{
+     font-size: 20px;
+     padding:10px 25px;
+     position: relative;
+     left:2px;
+     width:150px;
+     display:inline-block;
+}
+.product1{
+     width:37%;
+     padding:10px 50px 10px 10px;
+     height:95%;
+     text-align: center;
+}
+.product2{
+     width:37%;
+     padding:10px 10px 10px 30px;
+     height:95%;
+     text-align: center;
+}
+.product3{
+     width:60%;
+     height:95%;
+     text-align: center;
+     padding-top:90px;
+}
+/*container 3*/
+.container3{
+    margin:0;
+    padding:0;
+    position:relative;
+    width:100%;
+    height:80%;
+}
+.writeup2{
+    margin:0;
+    padding:10;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+}
+.writeup2 h1{
+    margin:0;
+    font-size:42px;
+    padding-top:120px;
+}
+.writeup2 p{
+    font-size:35px;
+    margin:0;
+    padding:0;
+}
+.container3 .btn2 btn{
+    position: relative;
+    left:39%;
+    width:135px;
+    display:flex;
+    top:40px;
+    font-size: 22px;
+    padding:12px 50px;   
+}
+/*container 4*/
+.container4{
+    position:relative;
+    width: 100%;
+    height: 250%;
+    margin:0;
+    padding:0;
+}  
+.container4 .header3{
+    font-size:30px;
+    text-align: center;
+    margin:0;
+    padding:50px;
+}
+.products2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top:45px;
+}
+.products2 img{
+    width:17em;
+    height:19em;
+}
+.products2 h3{
+    font-size:25px;
+}
+.products2 h4{
+    font-size:30px;
+}
+.products2 btn{
+    font-size: 20px;
+    padding:10px 25px;
+    position: relative;
+    left:2px;
+    width:150px;
+    display:inline-block;
+}
+.product2a{
+    width:37%;
+    height:95%;
+    padding:10px 50px 10px 10px;
+    text-align: center;
+}
+.product2b{
+    width:37%;
+    height:95%;
+    padding:10px 10px 10px 30px;
+    text-align: center;
+}
+.product2c{
+    width:60%;
+    height:95%;
+    text-align: center;
+    padding-top:90px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height:19%;
+    margin:0;
+    padding:0;
+    position: relative;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    }
+.footer .header4{
+    position:absolute;
+    left:42%;
+    top:10%;
+    font-size:20px;
+    text-align: center;
+}
+.footer .elly{
+    position:absolute;
+    left:44%;
+    bottom:47%;
+    text-align: center;
+}
+.footer .mediaLogo{
+    display:flex;
+    position: relative;
+    left:-1px;
+    top:30%;
+    text-align: center;  
+}
+}
+@media (min-width:1051px) and (max-width:1119px) {
+.container1{
+    position: relative;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+/*header1*/
+.header1{
+    font-size:30px;
+}
+.text{
+    font-size:24px;
+}
+.header .menu{
+    position: fixed;
+    float:left;
+    width:70%;
+    height:100%;
+    left:31.2%;
+    z-index:10;
+}
+/*sidebar*/
+.menu .closeMenu{
+    margin-left: 40%;
+}
+.menuList{
+    position: absolute;
+    right:36%;
+    top:10%;
+}
+/*writeup1*/
+.writeup1{
+    flex-direction: column;
+    display:flex;
+    position: relative;
+    width:67%;
+    height:60%;
+}
+.title1{
+    top:7%;
+    position: absolute;
+    width:90%;
+    font-size:89px;
+    line-height:76px;
+}
+.p1{
+    position: absolute;
+    font-size:36px;
+    top:68%;
+}
+.btn1{
+    top:94%;
+    width:45%;
+}
+/*container 2*/
+.container2{
+     width: 100%;
+     margin: 0;
+     padding:0;
+}
+.header2{
+    font-size:30px;
+}
+.products1{
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    flex:0.5;
+    justify-content: center;
+}
+.products1 img{
+    width:19em;
+    height:19em;
+    border-width: 0px 8px 8px 0px;
+}
+.products1 h3{
+    font-size:25px;
+}
+.products1 h4{
+    font-size:30px;
+}
+.products1 btn{
+    font-size: 20px;
+    padding:12px 30px;
+    position: relative;
+    left:25%;
+    width:150px;
+    display:flex;
+}
+.product1{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+.product2{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+.product3{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+/*container 3*/
+.container3{
+    width: 100%;
+}
+.writeup2 h1{
+    margin:0;
+    font-size:65px;
+    padding-top:70px;
+}
+.writeup2 p{
+    font-size:30px;
+    margin:0;
+    padding:0;
+}
+.container3 .btn2{
+    text-align: center;
+    justify-content: center;
+    padding-top:30px;
+}
+.container3 .btn2 btn{
+    position: relative;
+    left:42%;
+    width:130px;
+    font-size: 20px;
+    padding:14px 40px;   
+}
+/*container 4*/
+.container4{
+    width: 100%;
+    color:white;
+}
+.container4 .header3{
+    font-size:30px;
+    margin:0;
+    padding:50px;
+}
+.products2 img{
+    width:19em;
+    height:19em;
+}
+.products2 h3{
+    font-size:25px;
+}
+.products2 h4{
+    font-size:30px;
+}
+.products2 btn{
+    position: relative;
+    left:25%;
+    width:150px;
+    display:flex;
+    font-size: 20px;
+    padding:12px 30px;;
+}
+.product2a{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+.product2b{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+.product2c{
+    width:30%;
+    height:95%;
+    text-align: center;
+    padding:10px 25px 10px 10px;
+}
+/*footer*/
+.footer{
+    position:relative;
+    background-color: #050505;
+    height:20%;
+    color:white;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+}
+.footer .header4 {
+    text-decoration: none;
+    list-style: none;
+}
+.footer .header4{
+    position:absolute;
+    font-size:25px;
+    margin:0;
+    padding:0;
+    bottom:40px;
+    left:10%;
+}
+.footer .elly{
+    position:absolute;
+    bottom:40px;
+    left:45%;
+}
+.footer .mediaLogo{
+    position:absolute;
+     left:66%;
+     bottom:30px;
+     display:flex;
+     justify-content: center;
+     align-items: center;   
+}
+.footer .mediaLogo a{
+    display: inline-block;
+    margin-left: 15px;
+    background: black;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 50%;
+    transition:0.2s ease-in-out;
+}
+
 }
