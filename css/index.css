@@ -699,7 +699,7 @@ nav.active{
     width: 100%;
     height:auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -755,7 +755,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
-    height:auto;
+    height:450px;
 }
 .writeup2{
     margin:0;
@@ -789,7 +789,7 @@ nav.active{
     width: 100%;
     height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
