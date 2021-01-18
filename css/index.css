@@ -398,6 +398,244 @@ nav.active{
     transform: translateY(-10px);
 }
 /*responsiveness*/
+@media (min-width:220px) and (max-width:299px){
+.container1{
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;  
+}
+.header1{
+    position: relative;
+    font-size:19px;
+    right:15%;
+}
+.text{
+    font-size:19px;
+}
+.header .menu{
+    position: fixed;
+    float:left;
+    width:85%;
+    height:100%;
+    left:16.2%;
+    z-index:10;
+}
+/*sidebar*/
+.menu .closeMenu{
+    margin-left:-110px;
+}
+.menuList{
+    position: absolute;
+    right:17%;
+}
+/*writeup1*/
+.writeup1{
+    flex-direction: column;
+    display:flex;
+    position: relative;
+    width:90%;
+    right:50px;
+    top:10%;
+    height:60%;
+}
+.title1{
+    top:25%;
+    position: absolute;
+    width:90%;
+    font-size:30px;
+    line-height:40px;
+}
+.p1{
+    position: absolute;
+    font-size:20px;
+    top:58%;
+}
+.btn1{
+    top:78%;
+    width:70%;
+}
+/*container 2*/
+.container2{
+    position:relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom:20px;
+}
+.header2{
+    margin:0;
+    padding:45px;
+    font-size:25px;
+ }  
+.products1{
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:30px;
+    justify-content: center;
+    align-items: center;
+}
+.products1 img{
+    width:14em;
+    height:19em;
+}
+.products1 h3{
+     font-size:25px;
+  }
+.products1 h4{
+     font-size:30px;
+  }
+.products1 btn{
+     font-size: 20px;
+     padding:10px 25px;
+     position: relative;
+     left:2px;
+     width:150px;
+     display:inline-block;
+}
+.product1{
+     width:100%;
+     height:95%;
+     text-align: center;
+}
+.product2{
+     width:100%;
+     height:95%;
+     text-align: center;
+     padding-top:70px;
+}
+.product3{
+     width:100%;
+     height:95%;
+     text-align: center;
+     padding-top:70px;
+}
+/*container 3*/
+.container3{
+    margin:0;
+    padding:0;
+    position:relative;
+    width:100%;
+}
+.writeup2{
+    margin:0;
+    padding:10;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+}
+.writeup2 h1{
+    margin:0;
+    font-size:40px;
+    padding-top:50px;
+}
+.writeup2 p{
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+.container3 .btn2 btn{
+    position: relative;
+    left:16%;
+    width:120px;
+    display:flex;
+    font-size: 20px;
+    padding:12px 30px;   
+}
+/*container 4*/
+.container4{
+    position:relative;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding-bottom:20px;
+}  
+.container4 .header3{
+    font-size:25px;
+    text-align: center;
+    margin:0;
+    padding:50px;
+}
+.products2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+}
+.products2 img{
+    width:14em;
+    height:19em;
+}
+.products2 h3{
+    font-size:25px;
+}
+.products2 h4{
+    font-size:30px;
+}
+.products2 btn{
+    font-size: 20px;
+    padding:10px 25px;
+    position: relative;
+    left:2px;
+    width:150px;
+    display:inline-block;
+}
+.product2a{
+    width:100%;
+    height:95%;
+    text-align: center;
+}
+.product2b{
+    width:100%;
+    height:95%;
+    text-align: center;
+    padding-top:70px;
+}
+.product2c{
+    width:100%;
+    height:95%;
+    text-align: center;
+    padding-top:70px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    justify-content: center;
+    display:flex;
+    height: 25%;
+    align-items: center;
+    }
+.footer .header4{
+    position:absolute;
+    left:16%;
+    top:10%;
+    font-size:20px;
+    text-align: center;
+}
+.footer .elly{
+    position:absolute;
+    left:24%;
+    bottom:47%;
+    text-align: center;
+}
+.footer .mediaLogo{
+    display:flex;
+    position: relative;
+    left:-10px;
+    top:30%;
+    text-align: center;  
+}
+.footer .mediaLogo a{
+    width:35px;
+    height:35px;   
+    border-radius: 35%;
+}
+}
 @media (min-width:300px) and (max-width:320px){
 .container1{
     margin:0;
@@ -459,9 +697,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 390%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -538,7 +776,7 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:25%;
+    left:20%;
     width:120px;
     display:flex;
     font-size: 20px;
@@ -548,9 +786,9 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 390%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -882,7 +1120,7 @@ nav.active{
     width: 100%;
     height:auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 /*container 4*/
 .container4{
@@ -890,7 +1128,7 @@ nav.active{
     width: 100%;
     height:auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 }
 @media (min-width:411px) and (max-width:500px){
@@ -1481,7 +1719,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
-    height:50%;
+    height:380px;
 }
 .writeup2{
     margin:0;
