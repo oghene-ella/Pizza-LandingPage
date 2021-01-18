@@ -697,7 +697,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height:360%;
+    height:auto;
     margin: 0;
     padding:0;
 }
@@ -755,6 +755,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
+    height:auto;
 }
 .writeup2{
     margin:0;
@@ -786,7 +787,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height:360%;
+    height: auto;
     margin:0;
     padding:0;
 }  
@@ -879,7 +880,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height:328%;
+    height:auto;
     margin: 0;
     padding:0;
 }
@@ -887,7 +888,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height:328%;
+    height:auto;
     margin:0;
     padding:0;
 }  
@@ -954,9 +955,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 320%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -1012,6 +1013,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
+    height:60%;
 }
 .writeup2{
     margin:0;
@@ -1024,7 +1026,7 @@ nav.active{
 .writeup2 h1{
     margin:0;
     font-size:40px;
-    padding-top:100px;
+    padding-top:70px;
 }
 .writeup2 p{
     font-size:20px;
@@ -1033,7 +1035,7 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:25%;
+    left:27%;
     width:120px;
     display:flex;
     font-size: 20px;
@@ -1043,9 +1045,9 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 320%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -1187,9 +1189,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 300%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -1276,9 +1278,9 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 300%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -1363,6 +1365,7 @@ nav.active{
     margin:0;
     padding:0;
     width:100%;
+    height:92%;
     position:relative;  
 }
 .header1{
@@ -1419,9 +1422,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 190%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -1510,9 +1513,9 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 190%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -1599,7 +1602,7 @@ nav.active{
     margin:0;
     padding:0;
     width:100%;
-    height:70%;
+    height:690px;
     position:relative;  
 }
 .header1{
@@ -1647,7 +1650,7 @@ nav.active{
 .p1{
     position: absolute;
     font-size:30px;
-    top:61%;
+    top:60%;
 }
 .btn1{
     top:79%;
@@ -1657,9 +1660,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 170%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -1716,7 +1719,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
-    height:50%;
+    height:420px;
 }
 .writeup2{
     margin:0;
@@ -1738,19 +1741,19 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:39%;
-    width:125px;
+    left:37%;
+    width:130px;
     display:flex;
-    font-size: 23px;
+    font-size: 21px;
     padding:12px 30px;   
 }
 /*container 4*/
 .container4{
     position:relative;
     width: 100%;
-    height: 170%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -1838,6 +1841,7 @@ nav.active{
     margin:0;
     padding:0;
     width:100%;
+    height:630px;
     position:relative;  
 }
 .text{
@@ -1858,7 +1862,7 @@ nav.active{
 .menuList{
     position: absolute;
     right:36%;
-    top:12%;
+    top:19%;
 }
 /*writeup1*/
 .writeup1{
@@ -1890,9 +1894,9 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 250%;
+    height: auto;
     margin: 0;
-    padding:0;
+    padding-bottom:20px;
 }
 .header2{
     margin:0;
@@ -1949,7 +1953,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
-    height:80%;
+    height:410px;
 }
 .writeup2{
     margin:0;
@@ -1971,7 +1975,7 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:39%;
+    left:37%;
     width:135px;
     display:flex;
     top:40px;
@@ -1982,9 +1986,9 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 250%;
+    height: auto;
     margin:0;
-    padding:0;
+    padding-bottom:20px;
 }  
 .container4 .header3{
     font-size:30px;
@@ -2073,6 +2077,7 @@ nav.active{
     padding:0;
     margin:0;
     width:100%;
+    height:630px;
 }
 /*header1*/
 .header1{
@@ -2126,7 +2131,8 @@ nav.active{
 .container2{
      width: 100%;
      margin: 0;
-     padding:0;
+     height:auto;
+     padding-bottom:30px;
 }
 .header2{
     font-size:30px;
@@ -2178,6 +2184,7 @@ nav.active{
 /*container 3*/
 .container3{
     width: 100%;
+    height:450px;
 }
 .writeup2 h1{
     margin:0;
@@ -2196,7 +2203,7 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:42%;
+    left:40%;
     width:130px;
     font-size: 20px;
     padding:14px 40px;   
@@ -2204,7 +2211,8 @@ nav.active{
 /*container 4*/
 .container4{
     width: 100%;
-    color:white;
+    height:auto;
+    padding-bottom:20px;
 }
 .container4 .header3{
     font-size:30px;
