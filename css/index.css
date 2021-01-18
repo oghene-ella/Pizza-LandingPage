@@ -874,7 +874,7 @@ nav.active{
     border-radius: 45%;
 }
 }
-@media (min-width:371px) and (max-width:385px){
+@media (min-width:371px) and (max-width:380px){
 /*container 2*/
 .container2{
     position:relative;
@@ -1187,7 +1187,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 310%;
+    height: 300%;
     margin: 0;
     padding:0;
 }
@@ -1266,7 +1266,7 @@ nav.active{
 }
 .container3 .btn2 btn{
     position: relative;
-    left:35%;
+    left:32%;
     width:120px;
     display:flex;
     font-size: 20px;
@@ -1276,7 +1276,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 310%;
+    height: 300%;
     margin:0;
     padding:0;
 }  
@@ -1419,7 +1419,7 @@ nav.active{
 .container2{
     position:relative;
     width: 100%;
-    height: 250%;
+    height: 190%;
     margin: 0;
     padding:0;
 }
@@ -1478,6 +1478,7 @@ nav.active{
     padding:0;
     position:relative;
     width:100%;
+    height:50%;
 }
 .writeup2{
     margin:0;
@@ -1509,7 +1510,7 @@ nav.active{
 .container4{
     position:relative;
     width: 100%;
-    height: 250%;
+    height: 190%;
     margin:0;
     padding:0;
 }  
