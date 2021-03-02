@@ -398,7 +398,7 @@ nav.active{
     transform: translateY(-10px);
 }
 /*responsiveness*/
-@media (min-width:220px) and (max-width:299px){
+@media (min-width:250px) and (max-width:299px){
 .container1{
     margin:0;
     padding:0;
